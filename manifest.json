@@ -1,0 +1,10 @@
+{
+  "id": "telegram-emoji",
+  "name": "Telegram Emoji",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Insert animated Telegram emoji in your notes. Supports TGS, WEBM and PNG formats with offline caching.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourusername/obsidian-telegram-emoji",
+  "isDesktopOnly": false
+}
