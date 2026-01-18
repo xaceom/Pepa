@@ -6,6 +6,12 @@
 [![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-purple)](https://obsidian.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
+**☁️ Облачная разработка:**
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-blue?logo=github)](https://codespaces.new/xaceom/Pepa?quickstart=1)
+[![Open in GitPod](https://img.shields.io/badge/Open%20in-GitPod-orange?logo=gitpod)](https://gitpod.io/#https://github.com/xaceom/Pepa/tree/claude/telegram-emoji-plugin-QHGMh)
+
+> 📖 **Нужен интернет для разработки?** См. [CLOUD_SETUP.md](CLOUD_SETUP.md) или [Quick Start](QUICK_START_CLOUD.md)
+
 ---
 
 ## ✨ Возможности

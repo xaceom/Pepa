@@ -1,0 +1,37 @@
+# GitPod configuration for Telegram Emoji Plugin
+
+image: gitpod/workspace-node:latest
+
+tasks:
+  - name: Setup
+    init: |
+      echo "Installing dependencies..."
+      npm install
+    command: |
+      echo "✨ Telegram Emoji Plugin - Development Environment"
+      echo ""
+      echo "Available commands:"
+      echo "  npm run dev   - Start development with hot reload"
+      echo "  npm run build - Build production version"
+      echo "  npm run test  - Run tests"
+      echo "  bash tests/manual/test-api-curl.sh - Test Telegram API"
+      echo ""
+      echo "🔑 Don't forget to set TELEGRAM_BOT_TOKEN in .env file!"
+
+ports:
+  - port: 3000
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - ms-vscode.vscode-typescript-next
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    addCheck: true
+    addComment: false
